@@ -1,18 +1,23 @@
 # Weather Outfit Advisor
 
-A simple Python script that suggests what you should wear based on the current weather conditions. It uses the [OpenWeatherMap API](https://openweathermap.org/) to fetch the current weather for a specific city and provides dressing recommendations accordingly.
+Weather Outfit Advisor ist ein einfaches Python-Skript, das basierend auf den aktuellen Wetterbedingungen Empfehlungen für die Kleidung gibt. Es nutzt die [OpenWeatherMap API](https://openweathermap.org/) zur Abfrage der aktuellen Wetterdaten für eine spezifische Stadt und bietet entsprechende Bekleidungs-Vorschläge an.
 
-## Features
+## Funktionen
 
-- Fetches real-time weather data using OpenWeatherMap API.
-- Provides outfit suggestions based on the temperature and weather conditions (e.g., rain, snow).
-- Easily customizable to fit different weather preferences.
+- **Echtzeit-Wetterdaten**: Abfrage von aktuellen Wetterdaten über die OpenWeatherMap API.
+- **Outfit-Vorschläge**: Empfehlungen basierend auf Temperatur und Wetterbedingungen (z. B. Regen, Schnee).
+- **Einfache Anpassbarkeit**: Leicht anpassbar für verschiedene Wetterpräferenzen.
 
-## Requirements
+## Anforderungen
 
-- Python 3.x
-- `requests` module (for making HTTP requests)
+- **Python**: Version 3.x
+- **Requests-Modul**: Zum Senden von HTTP-Anfragen.
 
-You can install `requests` via pip:
+### Installation des Requests-Moduls
+
+Um das `requests`-Modul zu installieren, verwenden Sie den folgenden Befehl:
+
 ```bash
 pip install requests
+
+
